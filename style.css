@@ -1,6 +1,8 @@
-font-family: 'EB Garamond', serif;
-font-family: 'Gothic A1', sans-serif;
+h1 {
+    color: #aac3e7;
+    font-family: 'EB Garamond', serif;
+}
 
-
-#aac3e7
-#fff
+p {
+    font-family: 'Gothic A1', sans-serif;
+}
