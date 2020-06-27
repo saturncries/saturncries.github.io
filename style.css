@@ -1,8 +1,16 @@
 h1 {
-    color: #aac3e7;
+    color: #1f1f1f;
     font-family: 'EB Garamond', serif;
 }
 
 p {
     font-family: 'Gothic A1', sans-serif;
+}
+
+#hello-black {
+    color: #1f1f1f;
+
+}
+#hello-blue {
+    color: #aac7e3;
 }
