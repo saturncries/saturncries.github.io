@@ -27,16 +27,23 @@ html {
   /* CSS RESET ENDS HERE */
   /* PROJECT CSS FOLLOWS */
 
-
-  #top-navbar {
-    background-color: #1A1A1A;
+  body {
+    color: #fff;
+    background-color: #242038;
+  }
+  
+  .blue {
+    color: #aac7e3;
   }
 
-  #top-navbar a {
-    color: #F0F0F0;
-    text-decoration: none;
+  .list-category {
+    color: #EDAFB8;
   }
 
-  #nav-list {
-    float: right;
+  .list-link {
+    color: #fff;
+  }
+
+  #ddg-search {
+    margin: 20px 0 0 0;
   }

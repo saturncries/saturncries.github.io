@@ -1,0 +1,6 @@
+text input to allow loading of different aspects
+    treeview with links to social,projects
+    about me
+    ddg search
+    weather forecast?
+    edit css [password #color1 | #color2 | #color3]
