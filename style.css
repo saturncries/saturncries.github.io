@@ -31,6 +31,13 @@ html {
     color: #fff;
     background-color: #242038;
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
   .blue {
     color: #aac7e3;
@@ -38,12 +45,18 @@ html {
 
   .list-category {
     color: #EDAFB8;
+    
   }
 
   .list-link {
     color: #fff;
   }
 
+  #file-tree {
+    align-self: center;
+    margin: 10% 0 0 0;
+  }
+
   #ddg-search {
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
   }
