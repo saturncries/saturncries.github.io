@@ -27,9 +27,18 @@ html {
   /* CSS RESET ENDS HERE */
   /* PROJECT CSS FOLLOWS */
 
+  :root {
+    --background: #242038;
+    --blue: #aac7e3;
+    --pink: #EDAFB8;
+    --white: #ccc;
+    --tree: solid 1px #ccc;
+  }
+
   body {
-    color: #fff;
-    background-color: #242038;
+    background-color: var(--background);
+    color: var(--white);
+    font-family: 'Gothic A1', sans-serif;
   }
 
   main {
@@ -38,23 +47,37 @@ html {
     align-items: center;
     justify-content: center;
   }
+
+  a:link {
+    color: var(--white);
+    text-decoration: none;
+  }
   
-  .blue {
-    color: #aac7e3;
+  a:visited {
+    color: var(--white);
+    text-decoration: none;
   }
 
-  .list-category {
-    color: #EDAFB8;
+  li {
+    margin: 4px 0 4px 1em;
+  }
+  
+  .blue {
+    color: var(--blue);
+  }
+
+  .pink {
+    color: var(--pink);
     
   }
 
   .list-link {
-    color: #fff;
+    color: var(--white);
   }
 
   #file-tree {
     align-self: center;
-    margin: 10% 0 0 0;
+    margin: 10% 0 0 40px;
   }
 
   #ddg-search {
